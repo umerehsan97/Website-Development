@@ -1,0 +1,92 @@
+
+span {
+  margin-top: 25px;
+  display: inline-block;
+  width: 33%;
+  height: 200px;
+  box-sizing: border-box;
+  border: 2px solid black;
+  background-color: grey;
+  font-family: sans-serif;
+  overflow: hidden;
+  scroll-behavior: auto;
+}
+
+.title {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+section {
+  padding-left: 4px;
+}
+
+.divFirst {
+  background-color:blue;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+}
+
+.divSecond {
+  background-color: greenyellow;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+}
+
+.divThird {
+  background-color:orangered;
+  border: 2px solid black;
+  float: right;
+  text-align: center;
+}
+
+p {
+  padding-top: 15px;
+  padding-left: 10px;
+}
+
+
+
+@media screen and (min-width: 992px) {
+  .divFirst{
+      width: 35%;
+  }
+  .divSecond{
+      width: 35%;
+  }
+  .divThird{
+      width: 35%;
+  }
+}
+@media screen and (max-width: 767px) {
+  span {
+      width: 100%;
+  }
+  .divFirst{
+      width: 25%;
+  }
+  .divSecond{
+      width: 25%;
+  }
+  .divThird{
+      width: 25%;
+  }
+}
+@media screen and (max-width: 500px) {
+  span {
+      width: 100%;
+  }
+  .divFirst{
+      width: 25%;
+  }
+  .divSecond{
+      width: 25%;
+  }
+  .divThird{
+      width: 50%;
+  }
+}
+
+
